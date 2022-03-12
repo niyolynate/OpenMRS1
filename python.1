@@ -1,0 +1,12 @@
+#main.py
+import datetime
+fromgw_utility.book import Book
+fromgw_utility.logging import logging
+
+def main():
+  try:
+  #Create a Dictionary and populate with Books.
+  Series = {
+  1:Book("Success in Pain", "Patrick Rothfuss", 663, datetime.date(2007,3,27)),
+  2:Book("Bears are cool",   "Lovica Peters",   99,  datetime.date(2019,4,30))
+  }
